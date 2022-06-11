@@ -446,6 +446,7 @@ box-shadow: inset 5px 5px 10px #bebebe,
     .ligth-mode {
         position: absolute;
         top: 10px;
+        left: 0;
     }
 }
 
