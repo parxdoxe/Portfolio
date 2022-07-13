@@ -157,10 +157,26 @@
     width: 100%;
 }
 
+.skill {
+    color: #F0EC8B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill p{
+    font-size: 10px;
+}
+
+.skill.black {
+color: #000;
+}
+
 .skills img {
     cursor: pointer;
     width: 30px;
     transition: 0.2s;
+    margin-right: 5px;
 }
 
 .skills img:hover {
@@ -199,7 +215,7 @@
 
 .right {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     width: 60%;
     padding-left: 10px;
@@ -378,7 +394,7 @@ box-shadow: inset 5px 5px 10px #bebebe,
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
     .container {
         height: 200vh;
     }

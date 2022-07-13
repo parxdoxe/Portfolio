@@ -1,7 +1,7 @@
 const checkbox = document.getElementById("checkbox");
 const container = document.querySelector(".container");
 const neumorphisms = document.querySelectorAll(".card, .box");
-const allBlacks = document.querySelectorAll(".description > h3, .inf > p, .atout > p, .box > p, .contenu > p, .line");
+const allBlacks = document.querySelectorAll(".description > h3, .inf > p, .atout > p, .box > p, .contenu > p, .line, .skill");
 
 checkbox.addEventListener("change", () => {
   container.classList.toggle("ligth");
@@ -18,7 +18,7 @@ checkbox.addEventListener("change", () => {
 });
 
 var change = document.getElementById('change')
-var changed = ["Developpeur front-end", "Developpeur back-end", "Developpeur full-stack"]
+var changed = ["Développeur front-end", "Développeur back-end", "Développeur full-stack"]
 i=0;
 
 setInterval (function(){
